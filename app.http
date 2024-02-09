@@ -1,0 +1,27 @@
+POST  http://localhost:4100/notebook
+Content-Type: application/json
+
+{
+                
+                "title": "John@gmail.com",
+                "email": "John@gmail.com",
+                "content": "This week i will go to Coast",
+                
+     
+}
+
+###
+DELETE http://localhost:4100/usersnotebook/delete/0b525987-47df-43ee-85a6-ab856849313b
+Content-Type: application/json
+
+###
+update
+PUT http://localhost:4100/notebook/update/4756cf7d-ff5c-4b78-965d-864691cbe560
+Content-Type: application/json
+
+{
+    "email": "jack@gmail.com",
+    "title": "Trip",
+    "content": "Go to Nairobi",
+   
+}
